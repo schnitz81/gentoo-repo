@@ -2,4 +2,4 @@
 
 ## How-to
 - Add repo with eselect: ```eselect repository add schnitz git https://github.com/schnitz81/gentoo-repo```
-- Sync the Portage tree as usual.
+- Sync the repo: ```emaint sync -r schnitz```
