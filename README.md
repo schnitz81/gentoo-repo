@@ -10,6 +10,7 @@
 mkdir -p /etc/portage/package.unmask
 cat <<EOF >/etc/portage/package.unmask/schnitz 
 app-misc/beings
+app-misc/beings2
 app-misc/textmode-lifestyle
 games-misc/ttybattle
 EOF
@@ -17,6 +18,7 @@ EOF
 mkdir -p /etc/portage/package.accept_keywords
 cat <<EOF >/etc/portage/package.accept_keywords/schnitz
 =app-misc/beings-9999 **
+=app-misc/beings2-9999 **
 =app-misc/textmode-lifestyle-9999 **
 =games-misc/ttybattle-9999 **
 EOF
