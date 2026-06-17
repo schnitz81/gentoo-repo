@@ -42,6 +42,7 @@ src_compile() {
 
 src_install() {
 	dobin beings2
+	doman ${PN}.1
 	dodoc README* LICENSE
 }
 
